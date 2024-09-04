@@ -1,0 +1,170 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f1f4f7;
+    margin: 0;
+    padding: 20px;
+}
+header {
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: #18c8d4;
+    padding: 20px;
+    color: rgb(130, 130, 204);
+}
+
+header h1 {
+    color: #060107;
+    font-size: 36px;
+    margin-bottom: 5px;
+}
+nav {
+    margin: 20px 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    list-style-type: none;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li hr {
+    margin: 0;
+}
+
+nav ul li a {
+    color: rgb(42, 31, 31);
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #52acc2;
+    text-decoration: underline;
+
+}
+section {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+h2 {
+    color: #52acc2;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+h3 {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+ul li {
+    margin-bottom: 5px;
+}
+footer {
+    background-color: #4fcfff;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 0;
+}
+
+section.about {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+section.about img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+
+.intro {
+    background-color: #f9f9f9;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.intro img {
+    max-width: 150px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+
+.skills {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.skills ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.skill-bar {
+    margin-top: 20px;
+}
+
+.skill-bar .bar {
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.skill-bar .progress {
+    background-color: #52acc2;
+    height: 20px;
+    border-radius: 5px;
+}
+
+.timeline {
+    background-color: #f0f0f0;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.timeline-item {
+    margin-bottom: 20px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}

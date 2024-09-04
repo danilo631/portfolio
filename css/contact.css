@@ -1,0 +1,159 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f1f4f7;
+    margin: 0;
+    padding: 20px;
+}
+header {
+    text-align: center;
+    margin-bottom: 20px;
+    background-color:  #18c8d4;
+    padding: 20px;
+    color: rgb(130, 130, 204);
+}
+
+header h1 {
+    color: #0a0a0a;
+    font-size: 36px;
+    margin-bottom: 5px;
+}
+nav {
+    margin: 20px 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    list-style-type: none;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li hr {
+    margin: 0;
+}
+
+nav ul li a {
+    color: rgb(42, 31, 31);
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #dbe6e9;
+    text-decoration: underline;
+
+}
+section {
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+h2 {
+    color: #52acc2;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+h3 {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+ul li {
+    margin-bottom: 5px;
+}
+footer {
+    background-color: #0c0461;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 0;
+}
+.intro {
+    background-color: #f0f3f4;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.intro img {
+    max-width: 150px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+input:focus, textarea:focus {
+    border-color: #007BFF;
+    outline: none;
+}
+
+.input-container {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.input-container svg.icon {
+    position: absolute;
+    right: 10px;
+    top: 35px;
+    width: 20px;
+    height: 20px;
+    fill: #666;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+@media (max-width: 600px) {
+    input, textarea {
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    button {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+
+    .input-container svg.icon {
+        top: 25px;
+    }
+}
